@@ -79,6 +79,7 @@ body{
     background-color: rgba(77, 90, 229, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor:pointer;
 }
 
 /* список 4 блока */
@@ -115,6 +116,7 @@ body{
     background-color: rgba(231, 233, 252, 1);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer;
     }
 
 .buttons-menu:hover,
