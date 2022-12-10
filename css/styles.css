@@ -1,0 +1,126 @@
+/* цвет 
+
+NAVY BLUE h23 background
+rgba(46, 47, 66, 1)
+
+SLATE p
+rgba(67, 68, 85, 1)
+
+IRIS фиол лого 
+rgba(77, 90, 229, 1)
+
+CLOUD белый h1 background
+rgba(255, 255, 255, 1)
+
+CLOUD полубелый
+rgba(244, 244, 253, 1)
+
+*/
+
+
+body{
+    color: rgba(67, 68, 85, 1);
+    background-color:rgba(255, 255, 255, 1) ;
+} 
+.list{
+    list-style: none;
+    
+}
+
+.section-title {
+    color: rgba(46, 47, 66, 1);
+}
+
+/* логотип */
+.logo {
+    color: rgba(67, 68, 85, 1);
+    text-decoration: none;
+}
+
+.logo .logo-web {
+    color: rgba(77, 90, 229, 1);
+    text-decoration: none;
+}
+
+
+/* навигация */
+.site-nav a{
+    color: rgba(67, 68, 85, 1);
+    text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+    color: rgba(77, 90, 229, 1);
+}
+
+
+/* адресса */
+.auth-nav a {
+    color: rgba(67, 68, 85, 1);
+    text-decoration: none;
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color: rgba(77, 90, 229, 1);
+}
+
+
+/* заголовок */
+.hero{
+    background-color: rgba(46, 47, 66, 1);
+}
+.hero-title{
+    color: rgba(255, 255, 255, 1);
+}
+.hero button {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(77, 90, 229, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* список 4 блока */
+.section .title{
+    color:rgba(46, 47, 66, 1) ;
+}
+
+/* список 3 картинки */
+
+
+/* команда */
+.team{
+    background-color: rgba(244, 244, 253, 1);
+}
+.team .team-list {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* футер */
+.footer{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(46, 47, 66, 1);
+}
+.footer .studio{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Portfolio */
+
+/* buttons */
+
+.buttons-menu{
+    color: rgba(77, 90, 229, 1);
+    background-color: rgba(231, 233, 252, 1);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    }
+
+.buttons-menu:hover,
+.buttons-menu:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(77, 90, 229, 1);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
