@@ -23,7 +23,6 @@ rgba(244, 244, 253, 1)
     --cloud-color:rgba(244, 244, 253, 1);/* var(--cloud-color) */
     --irish-color:rgba(77, 90, 229, 1);/* var(--irish-color) */
 }
-/* var (--primary-text-color) */
 
 body{
     color: var(--primary-text-color);
@@ -42,6 +41,7 @@ body{
 .logo {
     color: var(--primary-text-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .logo .logo-web {
@@ -54,6 +54,7 @@ body{
 .site-nav a{
     color: var(--primary-text-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .site-nav a:hover,
@@ -66,6 +67,7 @@ body{
 .auth-nav a {
     color: var(--primary-text-color);
     text-decoration: none;
+    cursor:pointer;
 }
 
 .auth-nav a:hover,
