@@ -213,9 +213,3 @@ body{
         color:var(--primary-text-color)
     }
 
-
-.product .product-text{
-        color: var(--cloud-color);
-        background-color: var(--irish-color);
-
-    }
