@@ -62,6 +62,11 @@ body{
     color: var(--irish-color);
 }
 
+.site-nav a.current {
+    color: var(--irish-color);
+
+}
+
 
 /* адресса */
 .auth-nav a {
