@@ -15,6 +15,10 @@ rgba(255, 255, 255, 1)
 CLOUD полубелый
 rgba(244, 244, 253, 1)
 
+Font Raleway Weight 800
+Font Roboto Weight 600
+Font Roboto Weight 400
+
 */
 :root{
     --primary-text-color: rgba(67, 68, 85, 1);/* var(--primary-text-color) */
@@ -26,27 +30,37 @@ rgba(244, 244, 253, 1)
 
 body{
     color: var(--primary-text-color);
-    background-color:var(--accent-color) ;
+    background-color:var(--accent-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
 } 
 .list{
     list-style: none;
     
 }
 
-.section-title {
-    color: var(--title-text-color);
-}
+.button{
+    letter-spacing: 0.04em;
+    font-family: inherlite;
+
+    }
 
 /* логотип */
 .logo {
     color: var(--primary-text-color);
     text-decoration: none;
-    cursor: pointer;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.34;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 }
 
 .logo .logo-web {
     color: var(--irish-color);
-    text-decoration: none;
 }
 
 
@@ -54,7 +68,9 @@ body{
 .site-nav a{
     color: var(--primary-text-color);
     text-decoration: none;
-    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .site-nav a:hover,
@@ -72,7 +88,9 @@ body{
 .auth-nav a {
     color: var(--primary-text-color);
     text-decoration: none;
-    cursor:pointer;
+    font-size: 16px;
+    line-height: 1.5;
+
 }
 
 .auth-nav a:hover,
@@ -87,22 +105,38 @@ body{
 }
 .hero-title{
     color: var(--accent-color);
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
 }
 .hero button {
     color: var(--accent-color);
     background-color: var(--irish-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     cursor:pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 /* список 4 блока */
-.section .title{
+.section h3{
     color:var(--title-text-color) ;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-/* список 3 картинки */
 
+/* список 3 картинки */
+.section h2 {
+    color:var(--title-text-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
 
 /* команда */
 .team{
@@ -112,14 +146,41 @@ body{
     background-color: var(--accent-color);
 }
 
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+        }
+
+
 /* футер */
 .footer{
     color: var(--accent-color);
     background-color: var(--title-text-color);
 }
+.logo-footer{
+    color: var(--irish-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .footer .studio{
     color: var(--accent-color);
 }
+
+.footer p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+
 
 /* Portfolio */
 
@@ -127,10 +188,11 @@ body{
 
 .buttons-menu{
     color: var(--irish-color);
-    background-color: rgba(231, 233, 252, 1);
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
+    background-color: var(--cloud-color);
     cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
     }
 
 .buttons-menu:hover,
@@ -141,7 +203,19 @@ body{
     border-radius: 4px;
 }
 
+/* product */
+.section.product a{
+        text-decoration: none;
+    }
+
+
+.product p{
+        color:var(--primary-text-color)
+    }
+
+
 .product .product-text{
         color: var(--cloud-color);
         background-color: var(--irish-color);
+
     }
